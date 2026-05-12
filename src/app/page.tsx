@@ -164,7 +164,7 @@ export default function Home() {
       }}>
         <p style={sectionLabelStyle}>Selected projects</p>
         <p style={{ fontSize: "1.75rem", fontWeight: 600, color: "#fff", marginBottom: "3rem", maxWidth: "600px", lineHeight: 1.3 }}>
-          Two projects where the work was real, the data was live, and the tests actually ran.
+          Three projects where the work was real, the data was live, and the tests actually ran.
         </p>
 
         {/* Job Tracker */}
@@ -277,17 +277,14 @@ export default function Home() {
             <div>
               <p style={projectEyebrowStyle}>Final Project · Spring 2026 · Next.js, TypeScript, CSS</p>
               <h3 style={projectTitleStyle}>Professional Portfolio</h3>
-              <p style={projectBodyStyle}>
-                This portfolio site, built from scratch using Next.js and TypeScript. Designed with a minimal dark aesthetic, two-column layouts, sticky scrollytelling sections, and CSS-only data visualizations. No templates — every section was planned, written, and iterated on deliberately.
-              </p>
               <div style={{ marginBottom: "1.5rem" }}>
-                <p style={outcomeLabelStyle}>Outcome</p>
-                <p style={projectBodyStyle}>Deployed to GitHub Pages via GitHub Actions CI/CD. Covers professional identity, two featured projects, skills, and contact — all in one cohesive page.</p>
-                <p style={outcomeLabelStyle}>Proof</p>
-                <p style={projectBodyStyle}>Built using the professor&apos;s design system framework as a guide. Iterated through multiple design passes with intentional AI collaboration.</p>
+                <p style={projectBodyStyle}>Built with Next.js and TypeScript, deployed to GitHub Pages via GitHub Actions.
+                  The design went through multiple passes — dark theme, two-column layouts, a custom terminal visual, 
+                  sticky scrollytelling sections, and a CSS bar chart. Every section was written and iterated deliberately, 
+                  using AI as a collaborator throughout.</p>
               </div>
               <div style={{ display: "flex", gap: "1rem" }}>
-                <a href="PORTFOLIO_URL_HERE" target="_blank" rel="noopener noreferrer" style={pillButtonStyle}>Live Site →</a>
+                <a href="https://edgaroj52218.github.io/portfolio-website/" target="_blank" rel="noopener noreferrer" style={pillButtonStyle}>Live Site →</a>
                 <a href="https://github.com/edgaroj52218/scrollytelling_spec_driven" target="_blank" rel="noopener noreferrer" style={outlinePillStyle}>GitHub →</a>
               </div>
             </div>
@@ -378,7 +375,7 @@ export default function Home() {
               background: "#0a0a0a", border: "1px solid #1f1f1f", borderRadius: "10px",
               padding: "1.25rem 1.5rem", textDecoration: "none", color: "#e5e5e5",
             }}>
-              <span style={{ fontSize: "1.25rem" }}>⌥</span>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/GitHubLogo.png`} alt="GitHub" style={{ width: 24, height: 24, objectFit: "contain" }} />
               <div>
                 <p style={{ margin: 0, fontSize: "0.85rem", fontWeight: 600 }}>GitHub</p>
                 <p style={{ margin: 0, fontSize: "0.75rem", color: "rgba(229,229,229,0.4)" }}>github.com/edgaroj52218</p>
@@ -389,7 +386,7 @@ export default function Home() {
               background: "#0a0a0a", border: "1px solid #1f1f1f", borderRadius: "10px",
               padding: "1.25rem 1.5rem", textDecoration: "none", color: "#e5e5e5",
             }}>
-              <span style={{ fontSize: "1.25rem" }}>in</span>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/lnLogo.png`} alt="LinkedIn" style={{ width: 24, height: 24, objectFit: "contain", filter: "invert(1)" }} />
               <div>
                 <p style={{ margin: 0, fontSize: "0.85rem", fontWeight: 600 }}>LinkedIn</p>
                 <p style={{ margin: 0, fontSize: "0.75rem", color: "rgba(229,229,229,0.4)" }}>ojedastevenedgar</p>
@@ -400,7 +397,7 @@ export default function Home() {
               background: "#0a0a0a", border: "1px solid #1f1f1f", borderRadius: "10px",
               padding: "1.25rem 1.5rem", textDecoration: "none", color: "#e5e5e5",
             }}>
-              <span style={{ fontSize: "1.25rem" }}>@</span>
+              <img src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/emailLogo.png`} alt="Email" style={{ width: 24, height: 24, objectFit: "contain", filter: "invert(1)" }} />
               <div>
                 <p style={{ margin: 0, fontSize: "0.85rem", fontWeight: 600 }}>Email</p>
                 <p style={{ margin: 0, fontSize: "0.75rem", color: "rgba(229,229,229,0.4)" }}>edgaroj52218@gmail.com</p>
