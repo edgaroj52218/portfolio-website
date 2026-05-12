@@ -2,13 +2,13 @@
 
 A professional portfolio site built with Next.js, TypeScript, and CSS, deployed to GitHub Pages via GitHub Actions.
 
-- **Live site:** https://edgaroj52218.github.io/scrollytelling_spec_driven/
+- **Live site:** https://edgaroj52218.github.io/portfolio-website/
 - **Author:** Edgar Steven Ojeda
 - **Stack:** Next.js · React · TypeScript · CSS Modules
 
 ## About
 
-This portfolio presents my professional direction as an emerging full-stack software engineer. It features two major projects completed during Spring 2026 at NJIT, a skills overview, and contact information.
+This portfolio presents my professional direction as an emerging full-stack software engineer. It features three major projects completed during Spring 2026 at NJIT, a skills overview, and contact information.
 
 ## Featured Projects
 
@@ -17,6 +17,9 @@ This portfolio presents my professional direction as an emerging full-stack soft
 
 **Student Reality Lab** — An interactive data story built with React and Recharts examining real wage trends since 2010 using BLS data.
 → https://student-reality-lab-ojeda.vercel.app/
+
+**Professional Portfolio** — This portfolio site, built with Next.js and TypeScript, deployed to GitHub Pages via GitHub Actions.
+→ https://edgaroj52218.github.io/portfolio-website/
 
 ## Quick Start
 
