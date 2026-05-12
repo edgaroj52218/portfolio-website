@@ -43,6 +43,18 @@ export default function Home() {
         alignItems: "center",
       }}>
         <div>
+          <img
+    src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/photo.jpg`}
+    alt="Edgar Ojeda"
+style={{
+width: 220,
+height: 220,
+  borderRadius: "50%",
+  objectFit: "cover",
+  marginBottom: "1.5rem",
+  border: "2px solid #1f1f1f",
+}}
+  />
           <p style={{ fontSize: "0.8rem", letterSpacing: "0.15em", textTransform: "uppercase", color: "#4f8ef7", marginBottom: "1rem" }}>
             Harrison, NJ · Graduating 2027 · Open to internships
           </p>
@@ -414,6 +426,8 @@ export default function Home() {
         maxWidth: "1200px",
         margin: "0 auto",
       }}>
+        
+
         <p style={{ fontSize: "0.8rem", color: "rgba(229,229,229,0.3)", margin: 0 }}>
           Edgar Steven Ojeda · Harrison, NJ · NJIT Information Technology · Graduating 2027
         </p>
